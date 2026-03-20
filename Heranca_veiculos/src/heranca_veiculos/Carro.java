@@ -20,7 +20,7 @@ public class Carro extends Veiculos{
   
   @Override
   
-            public void InfoV(){
+            public void Info(){
                 System.out.println("---------- Carro ---------");
     System.out.println ("Marca do veiculo: " + this.marca);
     System.out.println ("Modelo do veiculo: " + this.modelo);

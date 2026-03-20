@@ -18,7 +18,7 @@ public class Carro_eletrico extends Carro {
     }
     
     @Override
-        public void InfoV(){
+        public void Info(){
             System.out.println("---------- Carro eletrico ---------");
     System.out.println ("Marca do veiculo: " + this.marca);
     System.out.println ("Modelo do veiculo: " + this.modelo);

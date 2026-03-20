@@ -20,7 +20,7 @@ public class Veiculos {
         this.ano = ano;
     }
     
-    public void InfoV(){
+    public void Info(){
     System.out.println("---------- Veiculo ---------");
     System.out.println ("Marca do veiculo: " + this.marca);
     System.out.println ("Modelo do veiculo: " + this.modelo);
