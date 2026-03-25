@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package show;
-
+import java.util.Scanner;
 /**
  *
  * @author Admin
@@ -14,7 +14,28 @@ public class ShowTeste {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Digite o valor base do ingresso: ");
+        double valor = sc.nextDouble();
+        
+        System.out.println("Tipo de ingresso: 1-normal | 2-VIP ");
+        
+        int tipo = sc.nextInt();
+        
+        if (tipo == 1){
+            
+            Ingresso i = new Ingresso(valor);
+            
+            i.tipoIngresso();
+        } else {
+            
+            VIP v = new VIP (valor);
+            v.tipoIngresso();
+        }
+        
+        
     }
     
 }
