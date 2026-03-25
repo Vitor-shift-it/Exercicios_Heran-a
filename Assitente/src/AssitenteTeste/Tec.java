@@ -13,5 +13,10 @@ public class Tec extends Funcionario {
       super (n_matricula, nome);
   
     }
-
+ @Override
+ public void infoDados(){
+     System.out.println("----- Assistente Tecnico -----");
+      System.out.println ("Numero de matricula do funcionario: " + this.n_matricula);
+      System.out.println("Nome do funcionario: " + this.nome);
+ }
 }

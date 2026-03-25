@@ -17,5 +17,7 @@ public class Adm extends Funcionario {
     @Override
     public void infoDados(){
         System.out.println("----- Assistente Administrativo -----");
+         System.out.println ("Numero de matricula do funcionario: " + this.n_matricula);
+          System.out.println("Nome do funcionario: " + this.nome);
     }
 }

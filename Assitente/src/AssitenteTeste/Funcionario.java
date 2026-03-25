@@ -21,7 +21,7 @@ public class Funcionario {
     public void infoDados(){
     System.out.println("----- Funcionario -----");
     System.out.println ("Numero de matricula do funcionario: " + this.n_matricula);
-    System.out.println("Nome do funcionario" + this.nome);
+    System.out.println("Nome do funcionario: " + this.nome);
             
     }
     

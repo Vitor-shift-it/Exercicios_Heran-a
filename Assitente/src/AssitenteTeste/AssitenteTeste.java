@@ -20,6 +20,9 @@ public class AssitenteTeste {
         
         Adm A1 = new Adm (56784, "Giovana");
         A1.infoDados();
+        
+        Tec T1 = new Tec (46383, "Alisson");
+        T1.infoDados();
     }
     
 }
